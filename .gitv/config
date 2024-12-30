@@ -1,0 +1,318 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/yasamaulana/mypbf.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+	vscode-merge-base = origin/main
+[branch "upfate040924"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/upfate040924
+[branch "update060924"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/update060924
+[branch "updatenew060924"]
+	vscode-merge-base = origin/update060924
+	remote = origin
+	merge = refs/heads/updatenew060924
+[branch "update070924-1"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/update070924-1
+[branch "update070924-2"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/update070924-2
+[branch "hjdereport"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/hjdereport
+[branch "lap.hutangjt"]
+	vscode-merge-base = origin/hjdereport
+	remote = origin
+	merge = refs/heads/lap.hutangjt
+[branch "lap.hutangjt-1"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/lap.hutangjt-1
+[branch "tampilanmodlcust190924"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/tampilanmodlcust190924
+[branch "fixbugmdl-dft-plngn"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixbugmdl-dft-plngn
+[branch "update220924-1"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/update220924-1
+[branch "tampilan-01"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/tampilan-01
+[branch "tampilan290924-1"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/tampilan290924-1
+[branch "fixtampilan290924"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixtampilan290924
+[branch "fixbuglapterimabarang"]
+	vscode-merge-base = origin/fixtampilan290924
+	remote = origin
+	merge = refs/heads/fixbuglapterimabarang
+[branch "update290924"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/update290924
+[branch "tampilanbayarhutang"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/tampilanbayarhutang
+[branch "fix011024"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fix011024
+[branch "viewnotabayarhutang"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/viewnotabayarhutang
+[branch "fixtampilan091024"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixtampilan091024
+[branch "fixterimabarang"]
+	vscode-merge-base = origin/fixtampilan091024
+	remote = origin
+	merge = refs/heads/fixterimabarang
+[branch "hidesearchKHKP"]
+	vscode-merge-base = origin/fixterimabarang
+	remote = origin
+	merge = refs/heads/hidesearchKHKP
+[branch "fixkartupiutang"]
+	vscode-merge-base = origin/hidesearchKHKP
+	remote = origin
+	merge = refs/heads/fixkartupiutang
+[branch "view101024"]
+	vscode-merge-base = origin/fixkartupiutang
+	remote = origin
+	merge = refs/heads/view101024
+[branch "fixview111024"]
+	vscode-merge-base = origin/view101024
+	remote = origin
+	merge = refs/heads/fixview111024
+[branch "kartupiutang"]
+	vscode-merge-base = origin/fixview111024
+	remote = origin
+	merge = refs/heads/kartupiutang
+[branch "fixtampilan"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixtampilan
+[branch "viewdatapenjualan"]
+	vscode-merge-base = origin/fixtampilan
+	remote = origin
+	merge = refs/heads/viewdatapenjualan
+[branch "datapenjualanview"]
+	vscode-merge-base = origin/viewdatapenjualan
+	remote = origin
+	merge = refs/heads/datapenjualanview
+[branch "view211024"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/view211024
+[branch "view231024"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/view231024
+[branch "produkexcel"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/produkexcel
+[branch "tampilan271024"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/tampilan271024
+[branch "fixtampilan281024"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixtampilan281024
+[branch "kelompok"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/kelompok
+[branch "kelompok1"]
+	vscode-merge-base = origin/kelompok
+	remote = origin
+	merge = refs/heads/kelompok1
+[branch "kelompok11"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/kelompok11
+[branch "fixbugobatbarang"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixbugobatbarang
+[branch "fixkelompok"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixkelompok
+[branch "barangobat"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/barangobat
+[branch "importexcel"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/importexcel
+[branch "sppembelianfix"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/sppembelianfix
+[branch "fixbug051124"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixbug051124
+[branch "barcode1"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/barcode1
+[branch "fixwiew"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixwiew
+[branch "fixview"]
+	vscode-merge-base = origin/view101024
+[branch "fixview151124"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixview151124
+[branch "view211124"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/view211124
+[branch "cekpesanan"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/cekpesanan
+[branch "fixprodusennull"]
+	vscode-merge-base = origin/cekpesanan
+	remote = origin
+	merge = refs/heads/fixprodusennull
+[branch "fixbugprodusen"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixbugprodusen
+[branch "fixtargetsalesspv"]
+	vscode-merge-base = origin/main
+[branch "fixspvsales"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixspvsales
+[branch "fixpenjualanerror"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixpenjualanerror
+[branch "fixbug241124ulc"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixbug241124ulc
+[branch "barcodepelanggan"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/barcodepelanggan
+[branch "kodepelanggan"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/kodepelanggan
+[branch "fixbug251124"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixbug251124
+[branch "fixsppenjualan"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixsppenjualan
+[branch "balikinid"]
+	vscode-merge-base = origin/fixsppenjualan
+	remote = origin
+	merge = refs/heads/balikinid
+[branch "dashboardadmin"]
+	vscode-merge-base = origin/balikinid
+	remote = origin
+	merge = refs/heads/dashboardadmin
+[branch "tambahsppenjualan"]
+	vscode-merge-base = origin/dashboardadmin
+	remote = origin
+	merge = refs/heads/tambahsppenjualan
+[branch "printpenjualan"]
+	vscode-merge-base = origin/tambahsppenjualan
+	remote = origin
+	merge = refs/heads/printpenjualan
+[branch "printpenjualan1"]
+	vscode-merge-base = origin/printpenjualan
+	remote = origin
+	merge = refs/heads/printpenjualan1
+[branch "printpenjualan2"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/printpenjualan2
+[branch "printpenjualan3"]
+	vscode-merge-base = origin/printpenjualan2
+	remote = origin
+	merge = refs/heads/printpenjualan3
+[branch "printpenjualan4"]
+	vscode-merge-base = origin/printpenjualan3
+	remote = origin
+	merge = refs/heads/printpenjualan4
+[branch "fixprintpenjualan1"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixprintpenjualan1
+[branch "fixprintpenjualan2"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixprintpenjualan2
+[branch "fixpricelist"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/fixpricelist
+[branch "sppenjualanfix"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/sppenjualanfix
+[branch "detailsppenjualanfix"]
+	vscode-merge-base = origin/sppenjualanfix
+	remote = origin
+	merge = refs/heads/detailsppenjualanfix
+[branch "fakturpenjualan111224"]
+	vscode-merge-base = origin/detailsppenjualanfix
+	remote = origin
+	merge = refs/heads/fakturpenjualan111224
+[branch "dashboardadmin1"]
+	vscode-merge-base = origin/fakturpenjualan111224
+	remote = origin
+	merge = refs/heads/dashboardadmin1
+[branch "testingupload"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/testingupload
+[branch "balikintesting"]
+	vscode-merge-base = origin/testingupload
+	remote = origin
+	merge = refs/heads/balikintesting
+[branch "fixereport"]
+	vscode-merge-base = origin/balikintesting
+	remote = origin
+	merge = refs/heads/fixereport

@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head><!-- Rappasoft Core Table Styles -->
+    <link href="/rappasoft/laravel-livewire-tables/core.min.css" rel="stylesheet" /> <!-- Rappasoft Table Third Party Styles -->
+    <link href="/rappasoft/laravel-livewire-tables/thirdparty.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>000001/INV/07-24</title>
+    <style>
+        body {
+            font-size: 9px;
+        }
+
+        @page {
+            size: continuous_form;
+            margin: 0mm;
+        }
+
+        body.continuous_form .sheet {
+            width: 138mm;
+            height: 218mm;
+        }
+
+        body.continuous_form.landscape .sheet {
+            width: 218mm;
+            height: 138mm;
+        }
+
+        body {
+            font-family: verdana, serif;
+            font-size: 4px;
+            margin: 0;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        .table-container {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .logo-img {
+            width: 70px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        @media print {
+            body.continuous_form {
+                width: 138mm;
+            }
+
+            body.continuous_form.landscape {
+                width: 218mm;
+            }
+
+            body {
+                font-size: 9px;
+                /* Ubah ukuran font untuk cetak */
+            }
+
+            .img-logo {
+                width: 10px;
+                height: 10px;
+            }
+
+            table {
+                margin-right: 25px;
+            }
+
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                font-size: 9px;
+            }
+
+            .tfoot-container-wrap {
+                margin-right: 25px;
+            }
+        }
+
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .tfoot-container-wrap {
+            display: flex;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 20px 20px;
+            box-sizing: border-box;
+        }
+
+        .tfoot-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 20px;
+            box-sizing: border-box;
+        }
+
+        .tfoot-container table {
+            width: 100%;
+
+        }
+
+        .tfoot-container-wrap table {
+            width: 100%;
+        }
+
+        .img-logo {
+            width: 70px;
+            height: 70px;
+        }
+    </style>
+<!-- Rappasoft Core Table Scripts -->
+<script src="/rappasoft/laravel-livewire-tables/core.min.js"  ></script> <!-- Rappasoft Third Party Scripts -->
+<script src="/rappasoft/laravel-livewire-tables/thirdparty.min.js"  ></script></head>
+
+<body class="continuous_form landscape">
+        <!-- content  -->
+            <div class="table-container">
+            <div style="display: flex; justify-content: space-between; padding-left: 20px; padding-right: 20px;">
+                <div id="company" style="display: flex; height: auto;width: 30%">
+
+
+                    <div style="text-align: left;">
+                        <p>
+                            <span style="font-weight: bold; font-size: 12px">PT. DEMO MYPBF INDONESIA</span><br>
+                            JL. KH Agus salim Rt.02 Rw. 07 Kutabanjarnegara (perum green harum residence blok c14-15) <br>
+                            No. PBF-01-09/2023<br>
+                            No. DAK001/PP/02/2023<br>
+                            CDOB : CDOB001<br>
+                            NPWP :12345543209 <br>
+                            Tlp :082140805662<br>
+                        </p>
+                    </div>
+                </div>
+                <div id="sales" style="margin: 8px">
+                    <div style="border: 0.5px solid #000;padding: 8px">
+                        <center>
+                            <div class="barcode"><div style="font-size:0;position:relative;width:378px;height:30px;">
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:0px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:6px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:12px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:22px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:28px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:36px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:44px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:50px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:58px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:66px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:74px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:80px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:88px;top:0">&nbsp;</div>
+<div style="background-color:black;width:8px;height:30px;position:absolute;left:92px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:102px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:110px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:114px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:124px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:132px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:142px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:150px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:154px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:158px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:170px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:176px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:184px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:188px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:198px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:202px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:212px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:220px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:226px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:234px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:242px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:250px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:256px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:264px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:270px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:276px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:286px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:294px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:304px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:308px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:316px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:322px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:330px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:338px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:344px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:352px;top:0">&nbsp;</div>
+<div style="background-color:black;width:6px;height:30px;position:absolute;left:362px;top:0">&nbsp;</div>
+<div style="background-color:black;width:2px;height:30px;position:absolute;left:370px;top:0">&nbsp;</div>
+<div style="background-color:black;width:4px;height:30px;position:absolute;left:374px;top:0">&nbsp;</div>
+</div>
+</div>
+
+                            <br>
+                            <span style="font-weight: bold; text-align: center; margin-top: 7px;">FAKTUR
+                                PENJUALAN</span><br>
+                        </center>
+                        <p style="padding-top: 5px;">
+                            NO. Faktur : 000001/INV/07-24 <br>
+                            Np. Pajak : - <br>
+                            Tempo : 25 Hari <br>
+                            Tgl JT : 30-07-2024
+                        </p>
+                    </div>
+                </div>
+                <div id="customer">
+                    <p>
+                        <right>Tanggal :05-07-2024</right><br><br>
+                        Pelanggan : Apotek Sehat Alami<br>
+                        Semarang,KOTA SEMARANG <br>
+                        JAWA TENGAH<br>
+                        NPWP : 1234654543<br>
+                        Sales : Nina BOBO<br>
+                        Status : Kredit <br><br>
+                        Lembar : 1/ 1
+                    </p>
+                </div>
+            </div>
+            <br>
+            <table style="width: 95%;" id="foo">
+                <thead style="background-color: white;">
+                    <tr>
+                        <th>No</th>
+                        <th>Produk</th>
+                        <th>No Batch</th>
+                        <th>Expired</th>
+                        <th>Satuan</th>
+                        <th>Qty</th>
+                        <th>Harga</th>
+                        <th>Dis% 1</th>
+                        <th>Dis% 2</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                                                                    <tr>
+                            <td align="center">1</td>
+                            <td>ABAJOS DOS 10 X 10 KAPSUL</td>
+                            <td>ABJ-02</td>
+                            <td align="center">05-07-2026</td>
+                            <td align="center">Box</td>
+
+                            <td align="center">1</td>
+                            <td align="right">18.049</td>
+                            <td align="center">1</td>
+                            <td align="center">0.5</td>
+                            <td align="right">17.779
+                            </td>
+                        </tr>
+                                                                    <tr>
+                            <td align="center">2</td>
+                            <td>HUFAGRIP BATUK PILEK SYRUP 60 ML</td>
+                            <td>HFG-001</td>
+                            <td align="center">04-07-2026</td>
+                            <td align="center">Botol</td>
+
+                            <td align="center">3</td>
+                            <td align="right">19.500</td>
+                            <td align="center">1</td>
+                            <td align="center">0.5</td>
+                            <td align="right">57.624
+                            </td>
+                        </tr>
+                                    </tbody>
+            </table>
+        </div>
+        <div class="tfoot-container-wrap" style="margin-top: -10px;margin-bottom: 10px">
+            <table><tfoot>
+                <tr>
+                    <td colspan="5">Terbilang :  Delapan Puluh Tiga Ribu Empat Ratus Empat Puluh Enam</td>
+                </tr>
+                <tr>
+                    <td rowspan="1" colspan="3">Keterangan : </td>
+                    <td style="font-weight: bold;" style="width: 10%">Subtotal</td>
+                    <td align="right" style="width: 10%">{{ number_format($sale->subtotal, 0, ',', '.') }}</td>
+                </tr>
+                <tr>
+                    <td style="width: 20%">
+                        <center>Penerima</center>
+                    </td>
+                    <td style="width: 30%">
+                        <center>Note</center>
+                    </td>
+                    <td  style="width: 25%">
+                        <center> Apoteker </center>
+                    </td>
+                    <td  style="font-weight: bold;" style="width: 10%">DPP</td>
+                    <td align="left">{{ number_format($sale->dpp, 0, ',', '.') }}</td> // Nilai DPP
+                </tr>
+                <!-- Untuk TTD -->
+                <tr>
+                    <td rowspan="5">
+
+                    </td>
+                    <td rowspan="5">{{ $footer }}</td>
+                    <td rowspan="4">{{ $profile->apoteker }} {{ $profile->sipa }}</td>
+                </tr>
+
+                <!-- Untuk TTD -->
+                <tr>
+                    <td  style="font-weight: bold;" style="width: 10%">PPN</td>
+                    <td>{{ number_format($sale->ppn, 0, ',', '.') }}</td>
+                </tr>
+                <tr>
+                    <td  style="font-weight: bold;" style="width: 10%">Biaya</td>
+                    <td>{{ number_format(str_replace('.', '', $sale->biaya1), 0, ',', '.') }}</td>
+                </tr>
+                <tr>
+                    <td  style="font-weight: bold;" style="width: 10%">Biaya 2</td>
+                    <td>{{ number_format(str_replace('.', '', $sale->biaya2), 0, ',', '.') }}</td>
+                </tr>
+                <tr>
+                    <td  style="font-weight: bold;" style="width: 10%">Bayar</td>
+                    <td>{{ $sale->jumlah_bayar }}</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td  style="font-weight: bold;" style="width: 10%">Total</td>
+                    <td style="font-size: large; font-weight: bold; border-right-style: hidden; border-bottom-style: hidden;">{{ number_format($sale->total_hutang, 0, ',', '.') }}</td>
+                </tr>
+            </tfoot></table>
+        </div>
+        <!-- <div class="tfoot-container-wrap" style="margin-top: -10px;margin-bottom: 10px">
+            <table>
+                <tfoot>
+                    <tr>
+                        <td colspan="10">Terbilang :  Delapan Puluh Tiga Ribu Empat Ratus Empat Puluh Enam</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="1" colspan="8">Keterangan : </td>
+                        <td style="font-weight: bold;" style="width: 10%">Subtotal</td>
+                        <td align="right" style="width: 10%">75.403</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <center>Penerima</center>
+                        </td>
+                        <td colspan="3" style="width: 20%">
+                            <center>Note</center>
+                        </td>
+                        <td colspan="3" rowspan="3" style="width: 20%">
+                            <center> Apoteker </center>
+                        </td>
+                        <td style="font-weight: bold;">DPP</td>
+                        <td align="left">75.177</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="6"><br></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"  rowspan="3" style="border-bottom-style: hidden;">
+                            Rizki Hardinas Permana
+                        </td>
+                        <td colspan="3" rowspan="2" style="border-bottom-style: hidden;"></td>
+                        <td style="font-weight: bold;">PPN</td>
+                        <td align="left">8.269</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;">Biaya 1</td>
+                        <td align="left">0</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;">Biaya 2</td>
+                        <td align="left">0</td>
+                    </tr>`
+                    <tr>`
+                        <td colspan="3" style="border-bottom-style: hidden;"></td>
+                        <td colspan="3" style="border-bottom-style: hidden;">
+                            <center>Apt. Andi F Noya, S. Farm</center>
+                        </td>
+                        <td style="font-weight: bold;">Bayar</td>
+                        <td align="left">0</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><br></td>
+                        <td colspan="3">
+                            <center>SIPA/001/DKS/2023</center>
+                        </td>
+                        <td style="font-weight: bold;">Total</td>
+                        <td align="left"
+                            style="font-size: large; font-weight: bold; border-right-style: hidden; border-bottom-style: hidden;">
+                            83.446</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </div> -->
+
+
+                <div style="page-break-after: always"></div>
+
+    <!-- end content -->
+</body>
+<script>
+    // Mendeteksi peristiwa cetak
+    window.onafterprint = function() {
+        // Menutup jendela setelah mencetak
+        window.close();
+    };
+</script>
+
+</html>
